@@ -2,11 +2,13 @@
 
 namespace Zoo
 {
-    // grandchild class
+    // child class level 3
     class Wildcat : Felidae
     {
-        override public void CommonName() => Console.WriteLine(
+        public void WildcatIntro() => Console.WriteLine(
             "I'm  a Wildcat!");
+        public void HouseCat() => Console.WriteLine(
+            "Wildcats are very similar to modern house cats.");
         override public void MyHabitat() => Console.WriteLine(
             "I live in tree hollows and sometimes burows of other animals.");
     }
